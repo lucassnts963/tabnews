@@ -11,8 +11,7 @@ export const styles = StyleSheet.create({
   },
   heading: {
     color: THEME.COLORS.TEXT,
-    textAlign: "center",
-    fontSize: THEME.SIZE.TEXT.HEADING
+    fontSize: THEME.SIZE.TEXT.HEADING - 5
   },
   containerHeader: {
     padding: THEME.SIZE.SPACE.PADDING.MD,
