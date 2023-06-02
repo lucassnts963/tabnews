@@ -10,35 +10,35 @@ export function timestamp(dateString) {
   const seconds = now.diff(publishedAt, 'seconds')
 
   if (days === 1) {
-    return `${days} dia`
+    return `há ${days} dia`
   }
 
 
   if (days > 1) {
-    return `${days} dias`
+    return `há ${days} dias`
   }
 
   if (hours === 1) {
-    return `${hours} hora`
+    return `há ${hours} hora`
   }
 
   if (hours > 1 && hours < 24) {
-    return `${hours} horas`
+    return `há ${hours} horas`
   }
 
   if (minutes === 1) {
-    return `${minutes} minuto`
+    return `há ${minutes} minuto`
   }
 
   if (minutes > 1 && minutes < 60) {
-    return `${minutes} minutos`
+    return `há ${minutes} minutos`
   }
 
   if (seconds === 1) {
-    return `${seconds} minuto`
+    return `há ${seconds} minuto`
   }
 
   if (seconds > 1 && seconds < 60) {
-    return `${seconds} segundos`
+    return `há ${seconds} segundos`
   }
 }

@@ -18,5 +18,8 @@ export const styles = StyleSheet.create({
   },
   body: {
     color: THEME.COLORS.TEXT
+  },
+  containerComment: {
+    gap: THEME.SIZE.SPACE.GAP.SM
   }
 })

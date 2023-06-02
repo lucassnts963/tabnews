@@ -43,7 +43,7 @@ export function Markdown({ data }) {
       },
       link: {
         color: THEME.COLORS.LINK
-      }
+      },
     }}
     markdownit={md}
   >
