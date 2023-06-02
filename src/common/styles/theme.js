@@ -9,7 +9,8 @@ export const THEME = {
     TEXT_SECONDARY: "#6b7280",
     SUCCESS: "#16a34a",
     DANGER: "#dc2626",
-    WHITE: "#f9fafb"
+    WHITE: "#f9fafb",
+    LINK: "#2563eb",
   },
   SIZE: {
     TEXT: {

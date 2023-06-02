@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { getContent } from "../../domain/useCases/getContent"
 
 export function useContent(info) {
-  const [content, setContent] = useState(null)
+  const [content, setContent] = useState({})
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
 
